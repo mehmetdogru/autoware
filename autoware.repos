@@ -72,6 +72,14 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
     version: main
+  sensor_kit/isuzu_sensor_launch:
+    type: git
+    url: https://github.com/vautonomous/isuzu_sensor_launch.git
+    version: main
+  sensor_kit/itri_bus_sensor_kit_launch:
+    type: git
+    url: https://github.com/autowarefoundation/itri_bus_sensor_kit.git
+    version: main
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
@@ -81,6 +89,14 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
     version: main
+  vehicle/isuzu_vehicle_launch:
+    type: git
+    url: https://github.com/vautonomous/isuzu_vehicle_launch.git
+    version: master
+  vehicle/cbus_vehicle_launch:
+    type: git
+    url: https://github.com/autowarefoundation/cbus_vehicle_launch.git
+    version: master
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
