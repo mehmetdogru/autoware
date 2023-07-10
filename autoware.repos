@@ -96,6 +96,10 @@ repositories:
     type: git
     url: https://github.com/vautonomous/isuzu_sensor_launch.git
     version: backup-humble
+  sensor_kit/golf_sensor_kit_launch:
+    type: git
+    url: https://github.com/leo-drive/golf_sensor_kit_launch.git
+    version: golf
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
@@ -109,6 +113,10 @@ repositories:
     type: git
     url: https://github.com/vautonomous/isuzu_vehicle_launch.git
     version: backup-humble
+  vehicle/golf_vehicle_launch:
+    type: git
+    url: https://github.com/leo-drive/golf_vehicle_launch.git
+    version: main
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
